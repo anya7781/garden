@@ -1,0 +1,52 @@
+body{
+    background: inherit;
+}
+
+.dropdown-style{
+    width: 100%;
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+}
+
+select{
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    background-color: inherit;
+}
+
+option:focus, option:active{
+    background-color: #5BB12F!important;
+}
+
+option {
+    color: #000!important;
+}
+
+@media (max-width: 700px){
+    select{
+        font-size: 10px;
+    }
+    option{
+        font-size: 10px;
+    }
+    table{
+        font-size: 10px!important;
+    }
+}
+
+.main-block{
+    padding: 60px 0 50px 0;
+}
+
+table{
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+td{
+    padding: 20px;
+}
